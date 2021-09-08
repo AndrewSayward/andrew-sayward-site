@@ -16,7 +16,7 @@ const AboutMe = () => {
         <div className="w-full md:w-8/12 md:pl-40 pt-20 md:pt-0 from-right">
           <h2 className="font-bold text-5xl mb-12">Who am i? 🤷</h2>
           <p className="mb-6">Hi my name's Andrew,</p>
-          <p className="mb-6">I'm a Front-end web developer, I work alongside designers to make sure web experiences are responsive, quick, and fun to use.</p>
+          <p className="mb-6">I'm a front-end web developer, I work alongside designers to make sure web experiences are responsive, quick, and fun to use.</p>
           <p>Recently I got into the world of React / Next.JS, as well as an animation library called GSap, and those are the technologies that have been used for this site!</p>
 
           <Link href="/portfolio">
