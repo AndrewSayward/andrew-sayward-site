@@ -1,0 +1,16 @@
+// colours
+$mint: #ADFFA8;
+$charcoal: #303342;
+$navBackgroundColour: $mint;
+$offWhite: #DEE8F0;
+
+$crAqua: theme('colors.crAqua');
+$crYellow: theme('colors.crYellow');
+$crCoral: theme('colors.crCoral');
+$crFuchsia: theme('colors.crFuchsia');
+
+// breakpoints - try to keep to existing tailwind breakpoints - 'sm' 'md' 'lg'..
+$smallBp: "(min-width: 639px)";
+$mediumBp: "(min-width: 768px)";
+$largeBp: "(min-width: 1024px)";
+$xLargeBp: "(min-width: 1440px)";

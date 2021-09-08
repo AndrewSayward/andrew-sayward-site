@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+@import "~reset-css/reset.css";
+@import "./variables.scss";
+@import "./fonts";
+
+@import "./components.scss/defaults";
+
+@import "./components.scss//header";
+@import "./components.scss/squares";
+@import "./components.scss/home-page-animation";
+
+@tailwind utilities;

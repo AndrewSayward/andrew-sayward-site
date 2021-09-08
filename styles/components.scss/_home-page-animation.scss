@@ -1,0 +1,87 @@
+.prof-pic {
+  height: 400px;
+  top: 15px;
+  left: 15px;
+
+  &:before {
+    content: '';
+    width: 200px;
+    height: 200px;
+    @apply bg-theme-blue;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+  }
+
+  &:after {
+    content: '';
+    width: 300px;
+    height: 300px;
+    @apply bg-theme-green;
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    z-index: -1;
+  }
+}
+
+.animation-container {
+  height: 400vh;
+
+  .animation-elements {
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.credentials {
+  position: absolute;
+  font-size: 3rem;
+  margin-top: 100px;
+  line-height: 171px;
+  padding-left: 0px;
+  transform: translateX(-100px);
+  left: 42%;
+  width: 100%;
+  
+   > div {
+     opacity: 0;
+   }
+
+   > div:nth-of-type(2) {
+    margin-left: -20px;
+   }
+
+   > div:nth-of-type(3) {
+    margin-left: -75px;
+   }
+}
+
+.learn-about {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  font-size: 6rem;
+  font-weight: bold;
+  transform: translateX(100px);
+  opacity: 0;
+  margin-top: -30px;
+}
+
+.port-background  {
+  z-index: -1;
+  bottom: 0;
+}
+
+.clients h3 {
+  @apply mb-4;
+  @apply font-bold;
+  @apply text-2xl;
+
+  a {
+    @apply hover:text-theme-red;
+  }
+}

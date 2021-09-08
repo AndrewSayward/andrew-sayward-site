@@ -1,0 +1,10 @@
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.container {
+  @apply mx-auto;
+  @apply pl-5;
+  @apply pr-5;
+}
