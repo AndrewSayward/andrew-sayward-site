@@ -1,12 +1,12 @@
 const Portfolio = () => {
   return (
     <>
-      <div className="port-background bg-theme-green absolute h-full w-full md:w-4/12"></div>
-      <div className="md:flex">
-      <div className="text-white min-h-screen pt-60 pl-12 pr-12 md:pl-24 md:pr-12 md:w-4/12">
+      <div className="port-background bg-theme-green absolute h-full w-full lg:w-4/12"></div>
+      <div className="lg:flex">
+      <div className="text-white min-h-screen pt-60 pl-12 pr-12 lg:pl-24 lg:pr-12 lg:w-4/12">
         <h1 className="font-bold text-5xl">I have worked on a variety of projects with these clients:</h1>
       </div>
-      <div className="clients md:w-8/12 min-h-screen pl-12 md:pl-24 flex flex-col justify-center">
+      <div className="clients lg:w-8/12 min-h-screen pl-12 lg:pl-24 flex flex-col justify-center">
         <h3><a target="_blank" href="https://thecroc.com/">The Croc</a></h3>
         <h3><a target="_blank" href="https://carbon.ci/">Carbon Intelligence</a></h3>
         <h3><a target="_blank" href="https://ondemand.leviton.com/">Leviton</a></h3>
