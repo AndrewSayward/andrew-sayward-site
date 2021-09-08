@@ -3,8 +3,12 @@
   height: 150px;
   background-color: #00A7FA;
   position: absolute;
-  top: calc(50% - 75px);
+  top: calc(170px - 75px);
   left: 200px;
+
+  @media(min-width:1024px){
+    top: calc(50% - 75px);
+  }
 }
 
 .red {
@@ -12,8 +16,12 @@
   height: 150px;
   background-color: #FF3B28;
   position: absolute;
-  top: calc(50%);
+  top: calc(170px);
   left: 100px;
+
+  @media(min-width:1024px){
+    top: calc(50%);
+  }
 }
 
 .green {
@@ -21,11 +29,17 @@
   height: 150px;
   background-color: #48EB12;
   position: absolute;
-  top: calc(50% - 25px);
+  top: calc(170px - 25px);
   left: 150px;
   z-index: -1;
+
+  @media(min-width:1024px){
+    top: calc(50% - 25px);
+  }
 }
 
 .three-squares {
-  margin-top: -40px;
+  @media(min-width:1024px){
+    margin-top: -40px;
+  }
 }

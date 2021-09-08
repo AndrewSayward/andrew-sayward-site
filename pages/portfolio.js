@@ -9,9 +9,11 @@ export default function About() {
   const boxRef = useRef(null);
 
   useEffect(() => {
+    if(window.innerWidth > 1024) {
       let tl = gsap.timeline();
       tl.from('.port-background', {height: 0, ease:"power3.in", duration: "1"}, "start")
       tl.from('.clients', {opacity: 0, ease:"power3.in", duration: "1"})
+    }
   }, [boxRef]);
 
   return (

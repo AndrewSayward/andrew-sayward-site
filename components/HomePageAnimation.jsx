@@ -3,7 +3,7 @@ import Link from "next/link";
 const HomePageAnimation = () => {
   return (
     <div className="animation-container">
-      <div className="animation-elements min-h-home-page-height bg-grey relative container flex items-center justify-center ">
+      <div className="animation-elements min-h-home-page-height bg-grey relative container md:flex items-center justify-center ">
         <div className="three-squares">
           <div className="blue"></div>
           <div className="red"></div>

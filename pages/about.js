@@ -9,10 +9,12 @@ export default function About() {
   const boxRef = useRef(null);
 
   useEffect(() => {
+    if(window.innerWidth > 1024) {
       let tl = gsap.timeline();
       tl.from('.from-right', {duration: 1, opacity: 0, x: 200, ease:"power3.in"}, 'start')
       tl.from('.from-left', {duration: 1, ease:"power3.in", opacity: 0, x: -200}, "start")
-  }, [boxRef]);
+      }
+    }, [boxRef]);
 
   return (
     <div>
