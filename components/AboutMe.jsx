@@ -20,7 +20,7 @@ const AboutMe = () => {
           <p>Recently I got into the world of React / Next.JS, as well as an animation library called GSap, and those are the technologies that have been used for this site!</p>
 
           <Link href="/portfolio">
-            <div className="check-out font-bold text-4xl mt-24 cursor-pointer">Check out my work &gt;</div>
+            <div className="check-out font-bold text-3xl md:text-4xl mt-24 cursor-pointer">Check out my work &gt;</div>
           </Link>
         </div>
       </div>
