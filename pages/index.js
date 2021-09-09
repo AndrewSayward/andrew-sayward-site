@@ -45,7 +45,7 @@ useEffect(() => {
     <div>
       <Head>
         <title>Andrew Sayward | Front End Developer</title>
-        <meta name="description" content="" />
+        <meta name="description" content="A front end web developer based in Hackney, East London. Have a look at my previous work." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
