@@ -7,6 +7,7 @@ const Portfolio = () => {
         <h1 className="font-bold text-5xl">I have worked on a variety of projects with these clients:</h1>
       </div>
       <div className="clients lg:w-8/12 min-h-screen pl-12 lg:pl-24 flex flex-col justify-center">
+        <h3><a target="_blank" href="https://www.williamhillgroup.com/careers">William Hill</a></h3>
         <h3><a target="_blank" href="https://thecroc.com/">The Croc</a></h3>
         <h3><a target="_blank" href="https://carbon.ci/">Carbon Intelligence</a></h3>
         <h3><a target="_blank" href="https://ondemand.leviton.com/">Leviton</a></h3>
